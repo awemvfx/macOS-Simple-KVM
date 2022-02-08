@@ -1,10 +1,10 @@
 #!/bin/bash
 
-sudo apt-get update
+apt-get update
 
-sudo apt-get install python
+apt-get install python
 
-sudo apt install dmg2img
+apt install dmg2img
 
 python fetchOSX.py
 
