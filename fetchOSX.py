@@ -1,5 +1,6 @@
 import os
 
+'''
 print("Mojave : 1")
 print("Catalina : 2")
 print("Big Sur : 3")
@@ -14,5 +15,8 @@ elif osxver == 3:
  os.system(" python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download")
 else:
  os.system(" python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download")
+'''
 
- os.system("qemu-img convert BaseSystem.dmg -O raw BaseSystem.img")
+# Monterey
+os.system(" python ./macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download")
+os.system("qemu-img convert BaseSystem.dmg -O raw BaseSystem.img")
